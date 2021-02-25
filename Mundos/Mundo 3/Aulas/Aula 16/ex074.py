@@ -1,5 +1,9 @@
 from random import sample
-lista = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-lista = sample(lista, 5)
+lista = tuple(sample(range(10), 5))
+print('Os 5 números sorteados:\n')
+simbolo = '-'
 for c in range(0, 5):
-    print(lista[c], end=' ')
+    if c == 4:
+        simbolo = '\n'
+    print(lista[c], end=f' {simbolo} ')
+print(f'\nO menor número: {min(lista)}\n\nO maior número: {max(lista)}')
