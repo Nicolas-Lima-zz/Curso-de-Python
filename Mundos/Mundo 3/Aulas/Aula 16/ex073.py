@@ -7,7 +7,7 @@ for c in range(0, 5):
 print('')
 print('=' * 10, 'Os 4 últimos colocados', '=' * 10)
 print('')
-for c in range(15, 20):
+for c in range(16, 20):
     print(f'{c + 1}° {times[c]}')
 print('')
 print('=' * 10, 'Times em ordem alfabética', '=' * 10)
