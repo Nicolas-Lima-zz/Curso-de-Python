@@ -26,6 +26,7 @@ num = (int(input('Digite um número: ')),
        int(input('Digite um número: ')),
        int(input('Digite um número: ')))
 tupla = num
+print(f'Os valores digitados foram: {tupla}')
 print(f'O número 9 apareceu {num.count(9)} vezes')
 if 3 in tupla:
     a = f'O primeiro valor 3 foi digitado na {tupla.index(3) + 1}° posição'
