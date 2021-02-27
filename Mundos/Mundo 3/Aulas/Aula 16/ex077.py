@@ -1,3 +1,7 @@
 vogais = ('Morango', 'Jabuticaba', 'Casa', 'Carro', 'Zebra', 'Tigre', 'Peixe')
+vogalcount = ()
 for i in enumerate(vogais):
-    print(i)
+    if 'aeiou' in i:
+        vogalcount = 'aeiou'
+
+
