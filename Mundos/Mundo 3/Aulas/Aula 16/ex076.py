@@ -6,6 +6,6 @@ print(f'{"Lista de Preços":^40}')
 print('-' * 40)
 for item in range(len(lista)):
     if item % 2 == 0:
-        print(f'{lista[item]:.<30}', end='')
+        print(f'{lista[item]:.<30}', end=' ')
     else:
-        print(f'{lista[item]:>10.2f}')
+        print(f'R${lista[item]:>10.2f}')

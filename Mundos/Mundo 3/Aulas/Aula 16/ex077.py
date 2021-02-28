@@ -1,7 +1,7 @@
-vogais = ('Morango', 'Jabuticaba', 'Casa', 'Carro', 'Zebra', 'Tigre', 'Peixe')
-vogalcount = ()
-for i in enumerate(vogais):
-    if 'aeiou' in i:
-        vogalcount = 'aeiou'
-
-
+tupla = ('Morango', 'Jabuticaba', 'Casa', 'Carro', 'Zebra', 'Tigre', 'Peixe')
+codigo = '\n'
+for palavra in tupla:
+    print(f'\nNa palavra {palavra.upper()} temos', end=' ')
+    for letra in palavra:
+        if letra in 'aeiou':
+            print(letra, end=' ')
