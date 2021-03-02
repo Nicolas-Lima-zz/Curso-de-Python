@@ -1,6 +1,6 @@
 lista = []
 while True:
-    palavras = str(input('Digite a palavra: '))
+    palavras = (str(input('Digite a palavra: ')))
     continuar = str(input('Quer adicionar mais palavras? [S/N] ')).upper()[0]
     lista.append(palavras)
     if continuar == 'N':
